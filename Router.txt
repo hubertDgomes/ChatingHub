@@ -1,0 +1,18 @@
+1. npm install react-router-dom
+2. in main.jsx =>
+	<BrowserRouter>
+    <StrictMode>
+      <App />
+    </StrictMode>
+  </BrowserRouter>
+
+3. in app.jsx for =>
+
+<Routes>
+        <Route path="/" element={<h1>Home Page</h1>} />
+        <Route path="/about" element={<h1>About Page</h1>} />
+</Routes>
+
+Dont forget to import Routes and Route
+
+4. 
